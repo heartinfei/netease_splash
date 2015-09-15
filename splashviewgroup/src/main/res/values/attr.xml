@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SplashViewSwicher">
+        <attr name="svs_anim_in" format="reference"/>
+        <attr name="svs_anim_out" format="reference"/>
+    </declare-styleable>
+</resources>

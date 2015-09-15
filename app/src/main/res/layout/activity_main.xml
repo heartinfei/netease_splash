@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wangqiang.libs.splashviewgroup.SplashViewSwicher
+        android:id="@+id/swicher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/biz_ad_new_version1_img1" />
+    </com.wangqiang.libs.splashviewgroup.SplashViewSwicher>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="15.0dip"
+            android:src="@mipmap/biz_new_version_share" />
+
+        <ImageView
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/share"
+            android:layout_alignTop="@id/share"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@+id/share"
+            android:src="@mipmap/biz_new_version_music" />
+
+        <ImageView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/share"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14.0dip"
+            android:src="@mipmap/biz_new_version_content" />
+
+        <ImageView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50.0dip"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@mipmap/biz_new_version_start" />
+    </RelativeLayout>
+</RelativeLayout>
