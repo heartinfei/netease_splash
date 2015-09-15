@@ -4,7 +4,7 @@ High imitation Netease 5 boot screen（高仿网易5.0开机画面）
 ![image](https://github.com/heartinfei/netease_splash/blob/master/screen_img/device-2015-09-15-153943.png)
 ![image](https://github.com/heartinfei/netease_splash/blob/master/screen_img/device-2015-09-15-153957.png)
 
-<li>中文介绍见: <a href="http://www.eoeandroid.com/forum.php?mod=viewthread&tid=907655&page=1&extra=#pid6363013/">高仿网易5.0开机画面</a>
+<li>中文介绍见: <a href="http://www.eoeandroid.com/thread-907686-1-1.html/">高仿网易5.0开机画面</a>
 
 <h2><a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 <ul><li>Gradle Dependency (jCenter)</li></ul>
